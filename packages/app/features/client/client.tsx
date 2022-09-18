@@ -1,7 +1,6 @@
-import { H3, ListItem, Paragraph, YStack, Input, Label, XStack, Square } from "@bookup/uikit"
+import { H3, Paragraph, YStack, Input, Label, XStack } from "@bookup/uikit"
 import { useParam } from 'app/features/navigation'
 import { useUser, UserImage } from "app/features/user"
-import { Fragment } from "react"
 
 export const Client = () => {
   const [id] = useParam('id')
